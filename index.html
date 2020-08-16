@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;
+			padding: 0;
+			list-style: none;}
+			a{
+				text-decoration: none;
+			}
+			body{
+				background-color: rgb(245,245,245);
+			}
+			
+			.bt{
+				padding-left:350px;
+				position: relative;
+				//background-color: red;
+			}
+			.dhtu,.s00{
+				position: absolute;
+				
+			}
+			.dhtu{
+				//left: 1250px;
+				bottom: 50px;
+				right: 560px;
+			}
+			.s00{
+				//left:1330px;	
+				bottom: 50px;	
+				font: bold 22px "微软雅黑";	
+				color:rgb(196,1,1);
+				right:400px
+				}
+				
+			.dht{
+				height: 50px;
+				//width: 100%;
+				background-image: url(img/06.png);
+				background-repeat:repeat-x;
+				padding-left:300px;
+				
+			}
+			.dhul li{
+				color:white;
+				float: left;
+				margin: 0 32px;
+				text-decoration: none;
+				font:16px/3 "微软雅黑";
+				//background-color: red;
+				//width: 100px;
+				height: 50px;
+				text-align:center;
+				//padding-top: 10px;
+			}
+			.dhul a{
+				display: inline-block;
+			}
+			.dhul  a:hover{
+				background-color:rgb(196,0,0);
+			}
+			.lbt{
+				height: 800px;
+				//background-color: #bfa;
+				position: relative;
+			}
+			
+			.dtp{
+				width: 1260px;
+				height: 900px;
+				margin: 0 auto;
+				//background-color: #bfa;
+				position: relative;
+			}
+			.fy1,.fy2{
+				//background-color: black;
+				//display: inline-block;
+				position: absolute;
+				top: 355px;
+				width: 70px;
+				overflow: hidden;
+				
+			}
+			.fy1{
+				
+				left: 50px;
+				background-image: url(img/12.png);
+				width: 71px;
+				height: 71px;
+			}
+			.fy2{
+				right: 50px;
+				background-image: url(img/13.png);
+				width: 71px;
+				height: 71px;
+			}
+			.tp1{
+				width: 520px;
+				//background-color: #bfa;
+				display: inline-block;
+			}
+			
+			.tp1 h2{
+				font-size:60px ;
+				font-family: "宋体";
+				text-align:center;
+				margin-top:115px;
+				margin-bottom: 65px;
+			}
+			.tp2{
+				background-color: black;
+				float: right;
+				margin-top: 88px;
+				width: 640px;
+				position: relative;
+				height: 320px;
+				
+			}
+			.tp2 h3{
+				position: absolute;
+				top:75px;
+				left: 45px;
+				color: white;
+				font-size: 26px;
+				}
+			.tp2 img{
+				float: right;
+				}
+			.tp2 p{
+				position: absolute;
+				left: 40px;
+				top:135px;
+				color: white;
+				font-size: 14px;
+				
+			}
+			
+			.tp3{
+				position: absolute;
+				width: 700px;
+				//background-color: #bfa;
+				right: 0px;
+				top:500px;
+				height: 500px;
+			}
+			.tp3 img{
+				margin: 80px auto;
+				display: block;
+			}
+			.tp3 p{
+				width: 500px;
+				margin: 0 auto;
+				font-size: 18px;
+			}
+			.tp1 a{
+				display: block;
+				margin-top:120px;
+				float: right;
+			}
+			/*.tp1 button{
+				float: right;
+				margin-top:120px;
+				margin-right: 30px;
+				background-image: url(img/21.png);
+			}*/
+			.lt1{
+				width: 950px;
+				height:650px;
+				//background-color: rgb(237,242,246);
+				//padding-top: 75px;
+				/*position: relative;
+				background-image: url(img/33.jpg);
+				background-repeat:no-repeat ;
+				background-position:center;*/
+				}
+			.lt2{
+				width: 950px;
+				height: 650px;
+				//background-color: rgb(237,242,246);
+				float: right;
+				position: relative;
+			}
+			.m3{
+				margin-top:300px;
+				background-color: rgb(237,242,246);
+			}
+			.lt1 img{
+				display: block;
+				margin: 0 auto;
+				/*margin:0px auto 75px;	*/
+				border-radius:355px
+			}
+			.lt2h1,.lt2h2{
+				font-size: 48px;
+				color:#7a7a7a;
+				font-family: "宋体";
+			}
+			.lt2h1{margin-top: 110px;}
+			.lt2p{
+				
+				display: block;
+				width: 80%;
+				margin: 20px auto;
+				text-align: center;
+				font: 13px/2.5 '微软雅黑';
+			}
+			.lt2a{
+				float: right;
+				//background-image: url(img/21.png);
+				margin-right: 40px;
+				margin-top: 100px;
+			}
+			.lt2d{
+				position: absolute;
+				top:270px;
+				background-color: rgb(255,255,255);
+				height: 500px;
+				width: 566px;
+			}
+			.wd{
+				width: 100%;
+				margin-top: 100px;
+				background-color: rgb(43,43,43);
+				height: 178px;
+				padding-top: 100px;
+			}
+			.w1,.w2,.w3{
+				width: 33%;
+				//background-color: #bfa;
+				display: inline-block;
+				color: rgb(170,170,170);
+				font-size: 15px;
+			}
+			.w1{float: left;text-align: right;}
+			.w3{float:right;}
+			.w2{text-align: center;}
+		</style>
+	</head>
+	<body>
+		<div class=bt >
+			<a href="javaScript:;"><img src="img/08.png"/></a>
+		<img class=dhtu src="img/09.png"/>
+		<p class=s00 >400-xxx-xxxx</p>
+		</div>
+		<div class="dht">
+			<ul class=dhul>
+				<a href="javaScript:;"><li>首页</li></a>
+				<a href="javaScript:;"><li>关于我们</li></a>
+				<a href="javaScript:;"><li>经营理念</li></a>
+				<a href="javaScript:;"><li>产品介绍</li></a>
+				<a href="javaScript:;"><li>品质保障</li></a>
+				<a href="javaScript:;"><li>学院</li></a>
+				<a href="javaScript:;"><li>诚邀加盟</li></a>
+				<a href="javaScript:;"><li>联系我们</li></a>
+				<a href="javaScript:;"><li>公司资讯</li></a>
+			</ul>
+		</div>
+		
+		<div class="lbt">
+			<img src="img/25.png"/>
+			<button class=fy1></button>
+			<button class=fy2></button>		
+		</div>
+		<div class= dtp>
+			<div class=tp1>
+				<h2>[德美缝]</h2>
+				<img src="img/18.png"/>
+				<!--<button><img src="img/21.png"/></button>-->
+				<a href="javaScript:;"><img src="img/21.png"/></a>
+				
+			</div>
+			<div class=tp2>
+				<h3>匠心工艺品质服务</h3>
+				<p>
+					匠心是一种情怀，是一种力求完美，精益求精的工艺精神。<br />
+					品质是一种追求，是客户的满意度，是售后行为的影响力。<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                         
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					——李</p>
+				
+				
+			</div>
+			
+			<div class=tp3>
+				<img src="img/20.png"/>
+				<p>坚持以产品品质为根本，以精湛工艺为基础，以优质服务为保障，以客户满意为最终目的’’的经营理念，致力于为广大客户提供更优质、更完善的美缝作品。</p>
+			</div>
+		</div>
+		<div class = m3>
+			<div class= lt2 >
+				<h3 class= lt2h1>ABOUOT US</h3>
+				<h3 class= lt2h2>企业介绍</h3>
+				<div class= lt2d>
+					<p class=lt2p>建材集团（中国）有限公司是集团亚洲营销中心，设于香港英皇道。实力雄厚，引进德国全自动生产设备在江苏，广州两大工业大省投入生产基地，主要生产粘胶、硅胶、复合型结构胶、瓷砖美缝胶、热固型高分子胶，环氧树脂原料加工等。公司旗下产品更是在行业中脱颖而出，净味环保。产品拥有四大系列：2012年德科美缝联手全国美缝施工连锁品牌——，成立完美美缝精英学院，培训服务于各地美缝技师。公司建立了产品研发、产品生产、市场销售、技术培训、施工服务、团队管理六大核心模式，已在全国美缝行业中形成品牌化、专业化、标准化的市场作业模式。</p>
+					<a class=lt2a href="javaScript:;"><img src="img/21.png"/></a>
+				</div>
+				
+			</div>
+			<div class=lt1 >
+				<img src="img/33.png"/>
+			</div>
+			
+		</div>
+		<div class="wd">
+			<div class="w3">
+				<p>业务联系：xxxxxxxxxxxxx</p>
+			</div>
+			<div class="w1">
+				<p>地址：xxxxxxxxxxxx</p>
+			</div>
+			<div class="w2">
+				<p>热线电话：XXXXXXXXXXXX</p>
+			</div>
+			
+		
+		</div>
+		
+		
+		
+		
+	</body>
+</html>

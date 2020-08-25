@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	
+		<style type="text/css">
+
+			*{margin: 0;
+			padding: 0;
+			list-style: none;}
+			a{
+				text-decoration: none;
+			}
+			body{
+				background-color: rgb(245,245,245);
+				/*width: 1905px;
+				overflow: auto;*/
+			}
+			
+			.bt{
+				padding-left:350px;
+				position: relative;
+				//background-color: red;
+			}
+			.dhtu,.s00{
+				position: absolute;
+				
+			}
+			.dhtu{
+				//left: 1250px;
+				bottom: 50px;
+				right: 560px;
+			}
+			.s00{
+				//left:1330px;	
+				bottom: 50px;	
+				font: bold 22px "微软雅黑";	
+				color:rgb(196,1,1);
+				right:400px
+				}
+				
+			.dht{
+				height: 50px;
+				//width: 100%;
+				background-image: url(img/06.png);
+				background-repeat:repeat-x;
+				padding-left:640px;
+				
+			}
+			.dhul li{
+				color:white;
+				float: left;
+				margin: 0 32px;
+				text-decoration: none;
+				font:16px/3 "微软雅黑";
+				//background-color: red;
+				//width: 20%;
+				height: 50px;
+				text-align:center;
+				//padding-top: 10px;
+			}
+			
+			.dhul a{
+				display: inline-block;
+			}
+			.dhul  a:hover{
+				background-color:rgb(196,0,0);
+			}
+			.lbt{
+				height: 800px;
+				//background-color: #bfa;
+				//position: relative;
+				width: 4000px;
+			}
+			
+			.dtp{
+				width: 1260px;
+				height: 900px;
+				margin: 0 auto;
+				//background-color: #bfa;
+				position: relative;
+			}
+			.fy1,.fy2{
+				//background-color: black;
+				//display: inline-block;
+				position: absolute;
+				top: 180px;
+				//width: 70px;
+				//overflow: hidden;
+				border-radius:15px;
+			}
+			.fy1{
+				left: 50px;
+				background-image: url(img/12.png);
+				width: 71px;
+				height: 71px;
+				//background-position: -71px 0px;
+			}
+			.fy2{
+				right: 50px;
+				background-image: url(img/13.png);
+				width: 71px;
+				height: 71px;
+				//background-position: -71px 0px;
+			}
+			.tp1{
+				width: 520px;
+				//background-color: #bfa;
+				display: inline-block;
+			}
+			
+			.tp1 h2{
+				font-size:60px ;
+				font-family: "宋体";
+				text-align:center;
+				margin-top:115px;
+				margin-bottom: 65px;
+			}
+			.tp2{
+				background-color: black;
+				float: right;
+				margin-top: 88px;
+				width: 640px;
+				position: relative;
+				height: 320px;
+				
+			}
+			.tp2 h3{
+				position: absolute;
+				top:75px;
+				left: 45px;
+				color: white;
+				font-size: 26px;
+				}
+			.tp2 img{
+				float: right;
+				}
+			.tp2 p{
+				position: absolute;
+				left: 40px;
+				top:135px;
+				color: white;
+				font-size: 14px;
+				
+			}
+			
+			.tp3{
+				position: absolute;
+				width: 700px;
+				//background-color: #bfa;
+				right: 0px;
+				top:500px;
+				height: 500px;
+			}
+			.tp3 img{
+				margin: 80px auto;
+				display: block;
+			}
+			.tp3 p{
+				width: 500px;
+				margin: 0 auto;
+				font-size: 18px;
+			}
+			.tp1 a{
+				display: block;
+				margin-top:120px;
+				float: right;
+			}
+			/*.tp1 button{
+				float: right;
+				margin-top:120px;
+				margin-right: 30px;
+				background-image: url(img/21.png);
+			}*/
+			.lt1{
+				width: 950px;
+				height:650px;
+				//background-color: rgb(237,242,246);
+				//padding-top: 75px;
+				/*position: relative;
+				background-image: url(img/33.jpg);
+				background-repeat:no-repeat ;
+				background-position:center;*/
+				}
+			.lt2{
+				width: 950px;
+				height: 650px;
+				//background-color: rgb(237,242,246);
+				float: right;
+				position: relative;
+			}
+			.m3{
+				margin-top:300px;
+				background-color: rgb(237,242,246);
+			}
+			.lt1 img{
+				display: block;
+				margin: 0 auto;
+				/*margin:0px auto 75px;	*/
+				border-radius:355px;
+			}
+			.lt2h1,.lt2h2{
+				font-size: 48px;
+				color:#7a7a7a;
+				font-family: "宋体";
+			}
+			.lt2h1{margin-top: 110px;}
+			.lt2p{
+				display: block;
+				width: 80%;
+				margin: 20px auto;
+				text-align: center;
+				font: 13px/2.5 '微软雅黑';
+			}
+			.lt2a{
+				float: right;
+				//background-image: url(img/21.png);
+				margin-right: 40px;
+				margin-top: 100px;
+			}
+			.lt2d{
+				position: absolute;
+				top:270px;
+				background-color: rgb(255,255,255);
+				height: 500px;
+				width: 566px;
+			}
+			.wd{
+				width: 100%;
+				margin-top: 100px;
+				background-color: rgb(43,43,43);
+				height: 178px;
+				padding-top: 100px;
+			}
+			.w1,.w2,.w3{
+				width: 33%;
+				//background-color: #bfa;
+				display: inline-block;
+				color: rgb(170,170,170);
+				font-size: 15px;
+			}
+			.w1{float: left;text-align: right;}
+			.w3{float:right;}
+			.w2{text-align: center;}
+			.fy3{background-position: -71px 0px;
+				left: 50px;
+				//background-image: url(img/12.png);
+				width: 71px;
+				height: 71px;
+				//background-position: -71px 0px;
+				
+				}
+			.fy4{background-position: -71px 0px;
+				right: 50px;
+				//background-image: url(img/13.png);
+				width: 71px;
+				height: 71px;
+				//background-position: -71px 0px;
+				
+				}
+			.i2{left:1002px ;}
+			.i3{left: 1902px;}
+			.lbtb{
+				width: 1400px;
+				height: 500px;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+			}
+			.lbt{
+				position: relative;
+			}
+			.lbt img{
+				position: absolute;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div class=bt >
+			<a href="javaScript:;"><img src="img/08.png"/></a>
+		<img class=dhtu src="img/09.png"/>
+		<p class=s00 >400-xxx-xxxx</p>
+		</div>
+		<div class="dht">
+			<ul class=dhul>
+				<a href="index.html"><li>首页</li></a>
+				<a href="about1.html"><li>关于我们</li></a>
+				
+				<a href="cyjm.html"><li>诚邀加盟</li></a>
+				<a href="cyjm.html"><li>联系我们</li></a>
+			</ul>
+		</div>
+		<div class="lbtb">
+		<div class="lbt">
+			<img id=lb1 src="img/25.png"/>
+			<!--<img class=i2 src="img/26.png"/>-->
+		</div>
+			<button id=b1 class=fy1></button>
+			<button id=b2 class=fy2></button>
+		
+		</div>
+		<div class= dtp>
+			<div class=tp1>
+				<h2>[十字格美缝剂]</h2>
+				<img src="img/18.png"/>
+				<!--<button><img src="img/21.png"/></button>-->
+				
+				
+			</div>
+			<div class=tp2>
+				<h3>匠心工艺品质服务</h3>
+				<p>
+					十字格是一家集开发、设计、研发、生产、仓储、销售五大版块的大型线上品牌。<br />
+					公司专业生产美缝剂· 环氧彩砂
+					等产品。采用德国先进技术，进口原材料。<br />只为保证每一支产品出厂均为优质产品，服务大众。
+				</p>
+				
+			</div>
+			
+			<div class=tp3>
+				<img src="img/20.png"/>
+				<p>我公司秉承“顾客至上，锐意进取”持续改进为宗旨，在社会和客户中树立了良好的形象。
+					我们将竭诚为客户提供优质的产品和服务，公司拥有10年经验的研发团队，在科研生产上具备雄厚的实力，是名副其实的国民品牌。
+					每一个产品都进过严格的检验，保证品质。
+				</p>
+			</div>
+		</div>
+		<div class = m3>
+			<div class= lt2 >
+				<h3 class= lt2h1>ABOUOT US</h3>
+				<h3 class= lt2h2>企业介绍</h3>
+				<div class= lt2d>
+					<p class=lt2p>本公司一直秉承“诚信、专业”的经营理念,坚持用户至上、质量保障，带动了一批又一批的美缝剂客户。
+						公司以真瓷胶生产加工。选择十字格美缝剂就是选择共赢，我司随时期待您的电话。
+						美缝产品经历了一代又一代的更新换代，如今迎来了绿色健康美缝剂时代到来。
+						引领这个新时代的品质品牌当属十字格美缝了。   公司精选进口原料，考察合作德国毕克（BYK）、
+						意大利菲兰特（FLT）、美国气体公司（APCI）等知名国际原料公司；
+						引进意大利OSES生产技术工艺；产品通过ISO9001认证；达到建材环保E0级标准。
+						拒绝装修污染，作为生态环保装修的践行者，致力于服务业主，装出绿色健康生活。
+						产品远销全球20多个国家和地区，并获得一致认可，成为一项走出国门的国际美缝品牌，
+						吸引众多领袖装修商、建材商的战略合作！</p>
+					<a class=lt2a href="about1.html"><img src="img/21.png"/></a>
+				</div>
+				
+			</div>
+			<div class=lt1 >
+				<img src="img/33.png"/>
+			</div>
+			
+		</div>
+		<div class="wd">
+			<div class="w3">
+				<p>业务联系：xxxxxxxxxxxxx</p>
+			</div>
+			<div class="w1">
+				<p>地址：xxxxxxxxxxxx</p>
+			</div>
+			<div class="w2">
+				<p>热线电话：XXXXXXXXXXXX</p>
+			</div>
+			
+		
+		</div>
+		
+	<script type="text/javascript">
+			
+		var a = document.getElementById('b1');
+		a.onmousemove = function(){
+		//alert('ddd');
+		var reg = RegExp(/fy3/);
+		if(!reg.test(a.className)){
+		 a.className += ' fy3';
+		}else{}
+		}
+		var b = document.getElementById('b2');
+		b.onmousemove = function (){
+		//alert('ddd');
+		var reg = RegExp(/fy4/);
+		if(!reg.test(b.className)){
+		 b.className += ' fy4';
+		}
+		}		
+		a.onmouseout = function(){
+			a.className='fy1';
+		}
+		b.onmouseout = function(){
+			b.className='fy2';
+		}
+		var lbtt 
+		lbtt = document.getElementById("lb1");
+		/*a.onclick=function(){
+			lbtt.Image.src = 'img\26.png'
+		}*/
+		//alert('ddd');
+		/*lbtt.onclick = function (){
+		//alert('ddd');
+		var reg = RegExp(/i3/);
+		if(!reg.test(lbtt.className)){
+		 lbtt.className += ' i3';
+		
+		
+		/*function aa(btn){
+		var a = document.getElementById('b1');
+		a.onmousemove = function(){alert("ss");};
+		    }*/
+		a.onclick = function(){
+			lbtt.src = "img/26.png";
+			//alert(lbtt);
+		}
+		b.onclick = function(){
+			lbtt.src = "img/25.png";
+			//alert(lbtt);
+		}
+	</script>
+		
+		
+	</body>
+</html>
